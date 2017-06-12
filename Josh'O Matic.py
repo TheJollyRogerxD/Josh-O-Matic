@@ -11,7 +11,7 @@ while True:
     postVars = { "postperson":7,"postip":fakeip }
 
     kek = requests.post(url, params=postVars)
-    if (kek.text == "Thank you for voting!"):
+    if (kek.text == "1f u c4n r34d th1s u r34lly n33d t0 g37 l41d."):
         print("Josh is " + str(vote) + " " + "votes closer to meeting his lover")
     sleepTime= randint(5,15)
     print ("Waiting for " + str(sleepTime) + " " +  "seconds")
